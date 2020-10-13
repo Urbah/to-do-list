@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import DisplayTasks from './DisplayTasks'
 import ItemLeft from './ItemLeft';
 
-
 const ImputTask = (props) =>{
     const [valueInput, setValueInput] = useState('');
     const [tasks, setTasks ] = useState([]);
@@ -13,13 +12,11 @@ const ImputTask = (props) =>{
             e.target.value = '';
         }
      };
-     const deleteTask = (inputValue) =>{
+    const deleteTask = (inputValue) =>{
       setTasks(tasks.filter( function( e ) {
         return e !== inputValue;
     }));
      };
-     
-     
     return (
         <>
             <form className='form-todo' onSubmit={(e) => {
