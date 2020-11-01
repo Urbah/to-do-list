@@ -12,9 +12,9 @@ const ImputTask = (props) =>{
             e.target.value = '';
         }
      };
-    const deleteTask = (inputValue) =>{
-      setTasks(tasks.filter( function( e ) {
-        return e !== inputValue;
+    const deleteTask = (value, index) =>{
+      setTasks(tasks.filter( function( e, i ) {
+        return i !== index;
     }));
      };
     return (
