@@ -1,13 +1,10 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto fue creado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Scripts Disponibles
 
-In the project directory, you can run:
-
+En este proyecto, puedes ejecutar:
 ### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abre [http://localhost:3000](http://localhost:3000) en el explorador para visualizar.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+La pagina va a recargar automaticamente si se realiza alguna edición.
